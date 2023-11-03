@@ -36,3 +36,99 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* .carousel {
+  width:900px;
+  height:500px;
+  margin: auto;
+} */
+
+.form-check-input:checked {
+  background-color: #75b798 !important;
+  border-color: #0c8241 !important;
+}
+.form-check-input:focus {
+  border-color: #75b798 !important;
+  box-shadow: 0 0 0 0.25rem #1987543b !important;
+}
+.form-switch .form-check-input {
+  --bs-form-switch-bg: url("./assets/icon/sun.png") !important;
+  padding: 8px;
+  margin: 10px;
+  width: 2em;
+  /* margin-left: -2.5em; */
+  background-image: var(--bs-form-switch-bg);
+  background-position: left center;
+  border-radius: 2em;
+  transition: background-position .15s ease-in-out;
+}
+.form-check-input {
+  --bs-form-check-bg: #c1c1c1 !important;
+}
+
+.mySwitch {
+  padding-left: 20px;
+}
+
+.nav-link {
+  color: #0c8241 !important;
+}
+
+.card {
+  /* --bs-card-border-color: rgb(0 0 0 / 6%) !important; */
+}
+
+
+/*Set the row height to the viewport*/
+.row-height-news{
+  height: 100vh;
+}
+
+/*Set up the columns with a 100% height, body color and overflow scroll*/
+
+
+.right-news{
+  /* background-color: green; */
+  height: 100%;
+  overflow-y: scroll;
+}
+
+/*Remove the scrollbar from Chrome, Safari, Edge and IE*/
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+* {
+  -ms-overflow-style: none !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: none !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  display: none !important;
+}
+
+.pointerBannter {
+  top: -50px!important;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px !important;
+}
+
+.text-description {
+  /* max-width: 150ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
